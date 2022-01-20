@@ -1,4 +1,8 @@
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeadphones } from '@fortawesome/free-solid-svg-icons';
+import { faInstagram, faYoutube, faFacebook, faSpotify, faSoundcloud } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 function App() {
 
@@ -19,7 +23,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Instagram
+            <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a
           id="mail"
@@ -28,7 +32,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            mail
+            <FontAwesomeIcon icon={faEnvelope} />
           </a>
           </div>
         </div>
@@ -50,7 +54,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         Playlist: Vibes (Lofi/Chill/Relax)
+         <FontAwesomeIcon icon={faHeadphones} /> Playlist: Vibes (Lofi/Chill/Relax)
         </a>
         </div>
         <div className="App-btn">
@@ -60,7 +64,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          SoundCloud
+          <FontAwesomeIcon icon={faSoundcloud} /> SoundCloud
         </a>
         </div>
         <div className="App-btn">
@@ -70,7 +74,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Spotify
+          <FontAwesomeIcon icon={faSpotify} /> Spotify
         </a>
         </div>
         <div className="App-btn">
@@ -80,7 +84,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Facebook
+          <FontAwesomeIcon icon={faFacebook} /> Facebook
         </a>
         </div>
         <div className="App-btn">
@@ -90,10 +94,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Beat videos & live cookups YouTube channel
+          <FontAwesomeIcon icon={faYoutube} /> Beat videos & live cookups YouTube channel
         </a>
         </div>
-        <iframe src="https://open.spotify.com/embed/playlist/22C4LM3J0Xmi8aqXJ7igDH?utm_source=generator" width="33%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe src="https://open.spotify.com/embed/playlist/22C4LM3J0Xmi8aqXJ7igDH?utm_source=generator" width="33%" height="380" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </header>
     </div>
   );
