@@ -64,4 +64,6 @@
 
 #insta, #mail {
   display: contents;
+  padding: 0em 1em 0em 1em ;
+  display: inline-block;
 }
