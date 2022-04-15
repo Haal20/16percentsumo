@@ -1,23 +1,22 @@
 import './App.css';
 import { Routes, Route, Link } from 'react-router-dom';
-import Home from './components/Home.js'
-import About from './components/About.js'
+import Spirit from './components/Spirit.js'
+import Consult from './components/Consult.js'
 import Footer from './components/Footer'
+import Header from './components/Header'
 
 function App() {
 
   return (
     <div className="App">
       <header className="App-header">
-        <nav className='App-nav'>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-        </nav>
+        <Header />
       </header>
       <main className='App-main'>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='about' element={<About />} />
+          <Route path='/' element='' />
+          <Route path='/spirit' element={<Spirit />} />
+          <Route path='/consult' element={<Consult />} />
         </Routes>
       </main>
       <Footer />

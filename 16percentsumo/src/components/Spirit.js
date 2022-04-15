@@ -4,11 +4,10 @@ import { faHeadphones } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faYoutube, faFacebook, faSpotify, faSoundcloud } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
-function Home() {
+function Spirit() {
     return (
         <>
-            <div className='Home'>
-            <img className="App-logo" src="../logo.png" alt="logo" />
+            <div className='Spirit'>
                 <h1>
                     Julias vägledning
                 </h1>
@@ -59,26 +58,6 @@ function Home() {
                 <div className="App-btn">
                     <a
                     className="App-link"
-                    href="https://soundcloud.com/user-504018828?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >
-                    <FontAwesomeIcon icon={faSoundcloud} /> SoundCloud
-                    </a>
-                </div>
-                <div className="App-btn">
-                    <a
-                    className="App-link"
-                    href="https://open.spotify.com/artist/11RM3Vnm6zN9mpEJkdnDiO?si=oDZcIpKoQYOALEL1bZG_GQ"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >
-                    <FontAwesomeIcon icon={faSpotify} /> Spotify
-                    </a>
-                </div>
-                <div className="App-btn">
-                    <a
-                    className="App-link"
                     href="https://www.facebook.com/16percentsumo/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -101,4 +80,4 @@ function Home() {
     )
 }
 
-export default Home;
+export default Spirit;

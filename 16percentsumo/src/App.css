@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #d7d6d6;
 }
 
 .App-logo {
@@ -56,18 +57,43 @@
 
 /*___________________________HEADER___________________________*/
 .App-header {
-  min-height: 5vh;
   display: flex;
   flex-direction: column;
-  
   font-size: calc(10px + 2vmin);
   color: #2b2b2b;
 }
 
 .App-nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items:center;
   min-height: 15vh;
+  flex-wrap: wrap-reverse;
+}
+
+.navOne{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.navOne img{
+  width: 5em;
+  height: 5em;
+  margin-left: 2em;
+}
+
+.navTwo{
+  width: calc(100% * 0.5);
+  height: 3em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navThree{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 /*___________________________MAIN___________________________*/
@@ -75,37 +101,41 @@
   background-image: url(../public/WEBSITE_Sprinkles_EP_COVER1.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  min-height: 100vh;
+  height: 600px; /*BYT DENNA SENARE*/
 }
 
-/*.Home{
-  
-}*/
+.Spirit h1 {
+  margin: 0px
+}
 
-.About h1 {
-  margin-top: 0px;
+.Consult h1 {
+  margin: 0px
 }
 
 /*___________________________FOOTER___________________________*/
-.App-footer {
- 
-  min-height: 20vh;
-  padding: 4em;
+.App-footer { 
+  padding: 5em;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap-reverse;
 }
 
 .footerOne {
-  width: calc(100% * 0.3);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
+}
+.footerOne p {
+  margin: 2px;
 }
 
 .footerTwo {
-  width: calc(100% * 0.3);
+  display: flex;
+  justify-content: center;
 }
 
 .footerThree {
-  width: calc(100% * 0.3);
+  display: flex;
+  justify-content: flex-end;
 }
