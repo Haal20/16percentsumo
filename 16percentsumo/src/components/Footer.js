@@ -1,5 +1,7 @@
 import React from 'react'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -8,14 +10,20 @@ function Footer() {
                 <div className='footerOne'>
                     <p>----------------------------------</p>
                     <p>Julia Hansson</p>
-                    <p>Instagram: @NAMN</p>
-                    <p>NAMN@gmail.com</p>
+                    <a 
+                        id="insta" 
+                        className="App-link" 
+                        href="https://www.instagram.com/tarotbudskap/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"><p><FontAwesomeIcon icon={faInstagram} /> tarotbudskap</p>
+                    </a>
+                    <p><a className="App-link" href="mailto:webmaster@example.com">NAMN@gmail.com</a></p>
                 </div>
                 <div className='footerTwo'>
-                    <h3>Hello World from footer-view</h3>
+                    <h3>{}</h3>
                 </div>
                 <div className='footerThree'>
-                    <img className="App-logo" src="../logo.png" alt="logo" />
+                    <Link to="/"><img className="App-logo" src="../logo.png" alt="logo" /></Link>
                 </div>
             </div>
         </>

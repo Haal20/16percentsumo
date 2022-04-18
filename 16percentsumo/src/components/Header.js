@@ -12,14 +12,16 @@ function Header() {
                     
                 </div>
                 <div className='navTwo'>
-                    <Link id='consult' to="/consult">Konsult</Link>
-                    <Link id='spirit' to="/spirit">Spirit</Link>
+                    <Link className='App-link' to="/">Hem</Link>
+                    <Link className='App-link' id='consult' to="/consult">Konsult</Link>
+                    <Link className='App-link' id='spirit' to="/spirit">Spirit</Link>
+                    <Link className='App-link' id='about' to="/about">Om mig</Link>
                 </div>
                 <div className='navThree'>
                     <a
                         id="insta"
                         className="App-link"
-                        href="https://www.instagram.com/16_percent_sumo/"
+                        href="https://www.instagram.com/tarotbudskap/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

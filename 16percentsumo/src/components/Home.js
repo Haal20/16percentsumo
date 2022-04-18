@@ -1,13 +1,13 @@
 import React from 'react'
 
-function Consult() {
+function Home() {
     return (
         <>
             <div>
-                <h1>Julias konsulting</h1>
-                Föreläsningar och yrkesvägledning
+                <h1>Julias HEM</h1>
+                Det som är mest aktuellt
             </div>
-            <div className='Consult'>
+            <div className='About'>
                 <section className='Section'></section>
                 <section className='Section'></section>
                 <section className='Section'></section>
@@ -16,4 +16,4 @@ function Consult() {
     )
 }
 
-export default Consult
+export default Home
